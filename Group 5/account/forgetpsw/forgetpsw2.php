@@ -39,7 +39,7 @@ if (isset($_GET['tdn']) && isset($_GET['email'])) {
 </head>
 <body>
   <div class="tbody">
-  <h2>Trang quên mật khẩu (bước 2):</h2>
+  <h2 style="color:#dad6cc;">Trang quên mật khẩu (bước 2):</h2>
   <form action="" method="POST">
   <div class="container">
     
@@ -50,8 +50,7 @@ if (isset($_GET['tdn']) && isset($_GET['email'])) {
 
     <label for="#"><b>Mật khẩu</b></label>
     <div class="input-container">
-    <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
+    <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
       <input type="password" 
       title="Phải chứa ít nhất một số và một chữ hoa và chữ thường và ít nhất 8 ký tự trở lên"
       placeholder="Nhập mật khẩu" name="txtmk" required>
@@ -69,7 +68,7 @@ pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
 
   </div>
   <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn" onclick="location.href='#'">Thoát</button>
+    <button type="button" class="cancelbtn" onclick="location.href='../../home/site/index.html'">Thoát</button>
     <span class="psw">
       <a style="text-decoration: none" href="../login/login.php">Đăng nhập</a>&nbsp;&nbsp;
       <a style="text-decoration: none" href="../register/register.php">Đăng ký</a>

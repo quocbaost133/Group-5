@@ -1,5 +1,10 @@
 
-body {font-family: Arial, Helvetica, sans-serif;background-color: whitesmoke}
+
+body {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background:url(../../home/site/images/bg.jpg) top center repeat;
+  color: #575652;
+  border:0;
+}
 
 .tbody{
   width:500px;

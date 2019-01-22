@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="tbody">
-<h2>Trang đăng nhập</h2>
+<h2 style="color: #dad6cc;">Trang đăng nhập</h2>
 
 <form action="" method="post">
   <div class="imgcontainer">
@@ -25,10 +25,11 @@
       <input class="input-field" type="text" placeholder="Nhập tên đăng nhập" name="txttdn" required>
     </div>
 
+    <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
     <label for="psw"><b>Mật khẩu</b></label>
     <div class="input-container">
       <i class="fa fa-unlock-alt icon"></i>
-      <input class="input-field" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      <input class="input-field" type="password" 
               title="Phải chứa ít nhất một số và một chữ hoa và chữ thường và ít nhất 8 ký tự trở lên"
               placeholder="Nhập mật khẩu" name="txtpassword" required>
     </div>
@@ -40,7 +41,7 @@
     </label>
   </div>
   <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn" onclick="location.href='#'">Thoát</button>
+    <button type="button" class="cancelbtn" onclick="location.href='../../home/site/index.html'">Thoát</button>
 
     <span class="psw">
     <a style="text-decoration: none" href="../register/register.php">Bạn chưa có tài khoản?</a>&nbsp;&nbsp;
