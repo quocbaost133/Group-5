@@ -54,7 +54,7 @@
 			('$name','$information','$email')";
 			$conn = mysqli_connect("localhost","root","","contact");
 			mysqli_query($conn,$insert);
-			echo '<script> alert("Send Information Success");</script>';
+			echo '<script> alert("Gửi thông tin thành công");</script>';
 		}
 		
 	?>
@@ -68,20 +68,20 @@
 						<ul id="top_nav">
 							<li><a href="index.html"><img src="images/top_icon1.gif" alt=""></a></li>
 							<li><a href="#"><img src="images/top_icon2.gif" alt=""></a></li>
-							<li class="end"><a href="Contact.html"><img src="images/top_icon3.gif" alt=""></a></li>
+							<li class="end"><a href="Contact.php"><img src="images/top_icon3.gif" alt=""></a></li>
 						</ul>
 					</nav>
 				<nav>
 						<ul id="menu">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="Mission.html">Login</a></li>
+							<li><a href="../../account/login/login.php">Login</a></li>
 							<li><a href="News.html">Shop</a></li>
-							<li id="menu_active"><a href="Contact.html">Contact</a></li>
+							<li id="menu_active"><a href="Contact.php">Contact</a></li>
 						</ul>
 					</nav>
 				<nav>
 					<ul id="top_nav">
-						<li><a href="index.html"><img src="images/img6.jpg" alt="" ></a></li>
+						<li><img src="images/img6.jpg" alt="" ></li>
 					</ul>
 				</nav>
 				
